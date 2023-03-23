@@ -1,7 +1,7 @@
 let rowsSlider, columnsSlider, maxRotationSlider, maxDisplacementRatioSlider;
 
 function setup() {
-  createCanvas(600, 900);
+  createCanvas(600, 800);
   rectMode(CENTER);
   angleMode(DEGREES);
   noLoop();
@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-  background(229, 84, 32);
+  background(231, 83, 11);
   drawArtwork();
   ///displaySliderTitles();
 }
@@ -85,7 +85,7 @@ function drawArtwork() {
 
   let rows = rowsSlider.value();
   let columns = columnsSlider.value();
-  let unitSize = 24;
+  let unitSize = 22;
   let maxRotation = maxRotationSlider.value();
   let maxDisplacementRatio = maxDisplacementRatioSlider.value() / 100;
 
@@ -93,7 +93,7 @@ function drawArtwork() {
   let artworkHeight = rows * unitSize;
 
   let offsetX = (width - artworkWidth) / 2;
-  let offsetY = ((height - artworkHeight) / 2)-25;
+  let offsetY = ((height - artworkHeight) / 2)-20;
 
   for (let row = 0; row < rows; row++) {
     for (let col = 0; col < columns; col++) {
