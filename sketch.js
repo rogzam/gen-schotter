@@ -11,7 +11,8 @@ function setup() {
 }
 
 function draw() {
-  background(231, 83, 11);
+  clear();
+  background(0, 0, 0, 0);
   drawArtwork();
   ///displaySliderTitles();
 }
