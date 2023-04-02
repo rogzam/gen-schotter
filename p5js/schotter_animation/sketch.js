@@ -4,7 +4,7 @@ let canvas_size = 800;
 
 let counter = 0;
 
-let unitSize = 24  ;
+let unitSize = 28  ;
 
 let maxRotation = 0;
 let maxDisplacementRatio = 0;
