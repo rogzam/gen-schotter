@@ -20,4 +20,4 @@ Here are a few animations I made while experimenting with the different variable
 
 [Animation 01] [Animation 02] [Animation 03]
 
-Finally, I used a 3D printer as a pen-plotter to produce a couple of small prints:![image](https://user-images.githubusercontent.com/26198366/229350430-e32d98a5-6416-4143-ac87-1d2fa55ed320.png)
+Finally, I used a 3D printer as a pen-plotter to produce a couple of small prints:
